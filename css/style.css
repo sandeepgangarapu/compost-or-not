@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: #4a4a4a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #27ae60 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Main Content */
+main {
+    padding: 30px 0;
+}
+
+/* Compost Status */
+.compost-status {
+    background: #f4f4f4;
+    border-left: 5px solid #27ae60;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.status {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.status.yes {
+    color: #27ae60;
+}
+
+.status.no {
+    color: #c0392b;
+}
+
+/* Footer */
+footer {
+    background: #4a4a4a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
